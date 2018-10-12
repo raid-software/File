@@ -9,7 +9,6 @@ Add the repository to the project composer.json:
 
 ``` json
     "repositories": [
-        // ...
         { "type": "vcs", "url": "https://github.com/raid-software/File" },
     ],
 ```
@@ -18,7 +17,6 @@ continue by adding `desarrolla2/file` to the required packages section.
 
 ``` json
     "require": {
-        // ...
         "desarrolla2/file":  "*"
     }
 ```
