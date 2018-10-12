@@ -1,19 +1,22 @@
-# File
+# desarrolla2/file fork
 
-This provide a simple api to read and write files
+This provide a simple api to read and write files.
 
-[![Build Status](https://secure.travis-ci.org/desarrolla2/File.png)](http://travis-ci.org/desarrolla2/File) [![Latest Stable Version](https://poser.pugx.org/desarrolla2/file/v/stable.png)](https://packagist.org/packages/desarrolla2/file) [![Total Downloads](https://poser.pugx.org/desarrolla2/file/downloads.png)](https://packagist.org/packages/desarrolla2/file)
+This repository is for maintaining desarrolla2/file used in legacy software, and should not be used or published to packagist.
 
-## Installation
+## Installation with Composer
+Add the repository to the project composer.json:
 
-### With Composer
+``` json
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/raid-software/File" },
+    ],
+```
 
-It is best installed it through [packagist](http://packagist.org/packages/desarrolla2/file) 
-by including `desarrolla2/file` in your project composer.json require:
+continue by adding `desarrolla2/file` to the required packages section.
 
 ``` json
     "require": {
-        // ...
         "desarrolla2/file":  "*"
     }
 ```
